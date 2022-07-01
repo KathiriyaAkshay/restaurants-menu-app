@@ -1,6 +1,5 @@
 var express = require('express');
 var router = express.Router();
-var bodyParser = require("body-parser");
 var bcrypt = require("bcrypt");
 var schemas = require('../models/schemas');
 /* GET users listing. */
